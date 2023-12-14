@@ -8,7 +8,7 @@ def confirm():
         del lines[i-1]
     f.write(E1.get()+'\n'+E2.get()+'\n'+E3.get()+'\n'+E4.get())
     top.withdraw()
-    os.startfile('main.bat')
+    os.system('minesweeper1.py')
     sys.exit(0)
 if __name__ == "__main__":
     top = tk.Tk()
