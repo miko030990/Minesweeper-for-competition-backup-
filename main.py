@@ -8,7 +8,7 @@ def confirm():
         del lines[i-1]
     f.write(E1.get()+'\n'+E2.get()+'\n'+E3.get()+'\n'+E4.get())
     top.withdraw()
-    os.system('Minesweeper1.pyw')
+    os.system('images/Minesweeper.pyw')
     sys.exit(0)
 if __name__ == "__main__":
     top = tk.Tk()
